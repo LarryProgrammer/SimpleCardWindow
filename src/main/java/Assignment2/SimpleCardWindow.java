@@ -74,7 +74,7 @@ public class SimpleCardWindow extends JFrame implements ActionListener {
 /****************************************************************/
 
 
-        // Bob's Card
+        /* BOB'S CARD */
         JPanel bobCard = new JPanel();
         bobCard.setLayout(new BorderLayout());
         
@@ -115,7 +115,7 @@ public class SimpleCardWindow extends JFrame implements ActionListener {
 /****************************************************************/      
         
 
-        // Fred's Card
+        /* FRED'S CARD */
         fredCard = new JPanel();
         fredCard.setLayout(new BorderLayout());
         
@@ -198,6 +198,7 @@ public class SimpleCardWindow extends JFrame implements ActionListener {
             
     }
     
+    /* THE MAIN */
     public static void main(String[] args) {
         SimpleCardWindow window1 = new SimpleCardWindow();
         window1.setVisible(true);
